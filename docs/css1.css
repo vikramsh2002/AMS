@@ -1,0 +1,181 @@
+ /* AWS */
+ div #E{
+    margin-top: -80px;
+    border: 2px solid orange;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: blue;
+    animation: E 6s linear infinite 0s;
+    text-shadow: 10px;
+    font-size: 50px;
+    font-family: fantasy;
+    font-stretch: ultra-expanded;
+    animation-direction: alternate-reverse;
+}
+@keyframes E{
+  0%{
+    color:blue;
+  }
+  50%{
+    color: red;
+  }
+  100%{
+    color: yellow;
+  }
+}
+.img{
+    margin-top:-80px;
+}
+ 
+   .main {
+        align-items: center;
+        background-color: #FFFFFF;
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.0); 
+          color: #FFFFFF;
+         width: 500px;
+        height: 300px;
+        margin: 7em auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        margin-bottom: 40px;
+    }
+    
+    .sign {
+        padding-top: 10px;
+        color: #000000;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    
+    .un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 60px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    form.form1 {
+        padding-top: 10px;
+    }
+    
+    .pass {
+            width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 60px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+   
+    .un:focus, .pass:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+        
+    }
+    
+    .submit {
+      cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #9C27B0, #E040FB);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 38%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+    
+    .forgot {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        padding-top: 15px;
+    }
+    
+    #buttonone{
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 25px;
+  border: 3px solid white;
+}
+
+#buttontwo{
+
+  background-color: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  border: 3px solid white;
+  width: 150px;
+}
+
+ 
+    
+
+     #Yo{
+    background-position: center;
+    backface-visibility: hidden;
+    animation: Yo 8s linear infinite 0s;
+    background-image: url("theme.jfif");
+    background-size: cover;
+    padding: 100px;
+}
+@keyframes Yo
+{
+    0%{
+        background-image: url("theme.jfif");
+    }
+    25%{
+        background-image: url("th2.jpg");
+    }
+    50%{
+        background-image: url("th3.jpg");
+    }
+    75%{
+        background-image: url("th4.jpg");
+    }
+    100%{
+th        background-image: url("th5.jpg");
+    } 
+     
+
+
+        

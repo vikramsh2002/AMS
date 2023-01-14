@@ -1,0 +1,38 @@
+<?php
+header("Location:abc.php");
+?>
+<html>
+<head>
+  <link rel="stylesheet" href="css1.css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
+  <script type="text/javascript" src="login.js"></script>
+  <title>Sign in</title>
+</head>
+<script type="text/javascript">
+  window.localStorage.clear();
+</script>
+<body id="Yo">
+  <div class="img"><img src="LOGO.jpg" height="126" width="200" align="left">
+  <div>
+  <blockquote id="E">  AMS<br>ALUMINI
+    MANAGEMENT SYSTEM
+         
+</blockquote>
+
+  <div class="main">
+    <p class="sign" align="center">Sign In</p>
+    <form class="form1" name="SignIn" autocomplete="off" id="myform" method=get action="" onSubmit="check()">
+      <input class="un " type="text" align="center" placeholder="Username" id="User" required="">
+      <input class="pass" type="password" align="center" placeholder="Password" id="Pass" required="">
+       <input type="submit" value="Sign in" class="submit" align="center" id="Login">
+</form>
+      <p class="forgot" align="center"><a href="../ForgotPassword/ForgotPassword.html">Forgot Password?</p>
+            
+
+</div>
+     
+</body>
+
+</html>
