@@ -163,6 +163,7 @@ function check(){
 	    window.localStorage.clear();
 	    document.getElementById("Pass").value="";
 	    document.getElementById("User").value="";
+	    document.getElementById("myform").action="";
 	     	
 	}
 }
