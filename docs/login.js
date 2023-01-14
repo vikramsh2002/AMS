@@ -163,7 +163,9 @@ function check(){
 	    window.localStorage.clear();
 	    document.getElementById("Pass").value="";
 	    document.getElementById("User").value="";
-	    document.getElementById("myform").action="";
+	    document.getElementById("myform").target="_self";
+	    document.getElementById("myform").action="https://vikramsh2002.github.io/AMS/";
+		
 	     	
 	}
 }
