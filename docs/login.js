@@ -1,11 +1,12 @@
 function check(){
 	var a = document.getElementById("User").value;
 	var b= document.getElementById("Pass").value;
+	let url = "https://vikramsh2002.github.io/AMS-Homepage/";
 	
 	if(a=="varsharaj1759@gmail.com" && b=="varsha123#")  //1
 	{
 	    window.localStorage.setItem('uid','1');
-		document.getElementById("myform").action="Home Page/Home Page.html";
+		document.getElementById("myform").action=url;
 		 
 	}
 	else if(a=="aggarwaldeepali.454@gmail.com" && b=="Deepali5#")//2
