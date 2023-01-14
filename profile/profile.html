@@ -1,0 +1,427 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="profile.css" />
+<!--<script src="profile.js"></script>-->
+
+</head>
+<body>
+<div class="header0001">
+			
+			<div class="leftmenu">
+				 <img src="logo.jpg" alt="snow" style="height: 100px; width:300px">
+			</div>
+			<div class="rightmenu">
+    <center>
+        <ul>
+          <li><a href="../Home Page/Home Page.html">HOME</a></li>
+          <li><a href="../events/events.html">EVENTS</a></li>
+          <li> <a href="../Gallery/Gallery.html">GALLERY</a></li>
+          <li><a href="../about/about us.html">ABOUT US<a></li>
+            <li><a href="https://vikramsh2002.github.io/My-Portfolio/#con" target="_blank">CONTACT</a></li>
+            </ul>
+      </center>
+  </div>
+
+</div>
+
+<div class="coverpad">
+</div>
+<div class="coverpadx"><img src="cover.png" width="690px" height="350px" />
+</div>
+
+<div class="profilepic">
+</div>
+<div class="profilepicx"><img src="" width="140px" height="140px" id="dp" alt="Profile Pic" />
+</div>
+<div class="username" id="o">
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br>
+<center>
+<div class = "skills">
+<button onclick="show()" id ="b1"><h1>SKILLS <img src="downarrow.jpg" height="50px" width="50px" align="right"></h1></button>
+<div id="drl" style="display: none;">	
+		<!-- Js Put so that skills vary-->
+	<a href="#" id="s1"></a>
+	<a href="#" id="s2"></a>
+	<a href="#"id = "s3"></a>
+	<a href="#" id="s4"></a>
+	<a href="#" id="s5"> </a>
+	<a href="#" id="s6"></a>
+	<a href="#" id="s7"></a>
+	<a href="#" id="s8"></a>
+</div>	
+
+</div>
+</center>
+<br>
+<center>
+<div class = "skills" id="e2" style="display: block;">
+<button onclick="de()" id ="b2"><h1>Degree Persuing <img src="downarrow.jpg" height="50px" width="50px" align="right"></h1></button>
+<div id="drl1" style="display: none;">	
+		<!-- Js Put so that skills vary-->
+	<a href="#" id="deg"></a>
+	
+</div>	
+
+</div>
+</center>
+
+<script type="text/javascript">
+
+	function show(){
+		var a= document.getElementById("drl");
+        
+		if(a.style.display==="none")
+		{
+			a.style.display="block";
+			document.getElementById("e2").style.display="none";
+		}
+		else
+		{
+			a.style.display="none";
+		    document.getElementById("e2").style.display="block";	
+		}
+	}
+	function de(){
+		var a= document.getElementById("drl1");
+        
+		if(a.style.display==="none")
+		{
+			a.style.display="block";
+		}
+		else
+		{
+			a.style.display="none";
+		}
+	}
+</script>
+<script type="text/javascript">
+	var a = window.localStorage.getItem('uid');
+   if(a=='1')
+		{
+           document.getElementById("o").innerHTML="Miss. Varsha Raj";
+           document.getElementById("dp").src="Varsha.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";
+		}
+		else if(a=='2')
+		{
+		    document.getElementById("o").innerHTML="Miss. Deepali Aggarwal";	
+			document.getElementById("dp").src="Deepali.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").style.display="none";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";
+		}
+		else if(a=='3')
+		{
+		    document.getElementById("o").innerHTML="Mr. Dokupathi Abhinash";
+		    document.getElementById("dp").src="DoAbhi.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+M.Tech CSE";	
+		}
+		else if(a=='4')
+		{
+		    document.getElementById("o").innerHTML="Mr. Akshat Sakharkar";
+		    document.getElementById("dp").src="Akshat.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+M.Tech CSE";	
+		}
+		else if(a=='5')
+		{
+		    document.getElementById("o").innerHTML="Mr. Mayank Shekhar";
+		    document.getElementById("dp").src="Mayank.jpg";
+           document.getElementById("s1").innerHTML="C++";
+           document.getElementById("s2").innerHTML="HTML";
+           document.getElementById("s3").style.display="none";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";
+
+		}
+		else if(a=='6')
+		{
+		    document.getElementById("o").innerHTML="Mr. Gurneet Singh";
+		    document.getElementById("dp").src="Gurneet.png";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";}
+		else if(a=='7')
+		{
+		    document.getElementById("o").innerHTML="Mr. Shailesh Singh Yadav";
+		    document.getElementById("dp").src="Shailesh.jpg";
+           document.getElementById("s1").innerHTML="C++";
+           document.getElementById("s2").innerHTML="HTML";
+           document.getElementById("s3").innerHTML="CSS";
+           document.getElementById("s4").innerHTML="JS";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";	
+		}
+		else if(a=='8')
+		{
+		    document.getElementById("o").innerHTML="Mr. Shivam Singh";
+		    document.getElementById("dp").src="Shivam.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+		else if(a=='9')
+		{
+		    document.getElementById("o").innerHTML="Mr. Anuj Pratap Singh";
+		    document.getElementById("dp").src="ANUJ.jpg";
+           document.getElementById("s1").innerHTML="C++";
+           document.getElementById("s2").innerHTML="C";
+           document.getElementById("s3").style.display="none";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";	
+		}
+		else if(a=='10')
+		{
+		    document.getElementById("o").innerHTML="Mr. Jaideep Koranga";
+		    document.getElementById("dp").src="Jaideep.jpg";
+           document.getElementById("s1").innerHTML="C++";
+           document.getElementById("s2").innerHTML="HTML";
+           document.getElementById("s3").innerHTML="CSS";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";	
+		}
+		else if(a=='11')
+		{
+		    document.getElementById("o").innerHTML=" Mr. Pranay Kumar Ahirwar";
+		    document.getElementById("dp").src="PRANAY.png";
+           document.getElementById("s1").innerHTML="C++";
+           document.getElementById("s2").innerHTML="HTML";
+           document.getElementById("s3").innerHTML="CSS";
+           document.getElementById("s4").innerHTML="PHP";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";	
+		}
+		else if(a=='12')
+		{
+		    document.getElementById("o").innerHTML="Mr. Avinash Pandey";
+		    document.getElementById("dp").src="Avinash.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="JAVA";
+           document.getElementById("s5").innerHTML="CSS";
+           document.getElementById("s6").innerHTML="JS";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+M.Tech CSE";  	
+		}
+		else if(a=='13')
+		{
+		    document.getElementById("o").innerHTML="Mr. Tummeti Sai Ram Kumar";
+		    document.getElementById("dp").src="Ram.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="PHP";
+           document.getElementById("s5").innerHTML="CSS";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";
+
+		}
+		else if(a=='14')
+		{
+		    document.getElementById("o").innerHTML="Mr. Ayush Gour";
+		    document.getElementById("dp").src="AyushG.jfif";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="PHP";
+           document.getElementById("s5").innerHTML="CSS";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+M.Tech CSE";
+
+		}
+		else if(a=='15')
+		{
+		    document.getElementById("o").innerHTML="Miss Shruti Tandon";
+		    document.getElementById("dp").src="Shruti.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="JAVA";
+           document.getElementById("s5").innerHTML="SQL";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+		else if(a=='16')
+		{
+		    document.getElementById("o").innerHTML="Mr. Vipul Samant";
+		    document.getElementById("dp").src="Vipul.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="JAVA";
+           document.getElementById("s5").innerHTML="SQL";
+           document.getElementById("s6").innerHTML="CSS";
+           document.getElementById("s7").innerHTML="JS";
+           document.getElementById("s8").innerHTML="PHP";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+		else if(a=='17')
+		{
+		    document.getElementById("o").innerHTML="Mr. Sagar Sharma";
+		    document.getElementById("dp").src="	Sagar.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="CSS";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+M.Tech CSE";	
+		}
+		else if(a=='18')
+		{
+		    document.getElementById("o").innerHTML="Miss Diksha Srivastava";
+		    document.getElementById("dp").src="Diksha.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="JS";
+           document.getElementById("s5").innerHTML="CSS";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+		else if(a=='19')
+		{
+		    document.getElementById("o").innerHTML="Mr. Shivanshu Singh Yadav";
+		    document.getElementById("dp").src="Shivanshu.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="PHP";
+           document.getElementById("s5").innerHTML="SQL";
+           document.getElementById("s6").innerHTML="CSS";
+           document.getElementById("s7").innerHTML="JS";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+		else if(a=='20')
+		{
+		    document.getElementById("o").innerHTML="Mr. Kuldeep Singh";
+		    document.getElementById("dp").src="Kuldeep.jpg";
+           document.getElementById("s1").innerHTML="C++";
+           document.getElementById("s2").innerHTML="HTML";
+           document.getElementById("s3").innerHTML="C";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+		else if(a=='21')
+		{
+		    document.getElementById("o").innerHTML="Mr. Manish Kumar";
+		    document.getElementById("dp").src="Manish.jpg";
+           document.getElementById("s1").innerHTML="C++";
+           document.getElementById("s2").innerHTML="HTML";
+           document.getElementById("s3").innerHTML="C";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+        else if(a=='22')
+		{
+		    document.getElementById("o").innerHTML="Miss Ayushi Aggarwal";
+		    document.getElementById("dp").src="Ayushi.jpg";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").style.display="none";
+           document.getElementById("s3").style.display="none";
+           document.getElementById("s4").style.display="none";
+           document.getElementById("s5").style.display="none";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="Integrated B.Tech+MBA CSE";	
+		}
+		else if(a=='23')
+		{
+		    document.getElementById("o").innerHTML="Mr. Arman Kumar Sikriwal";
+		    document.getElementById("dp").src="Arman.png";
+           document.getElementById("s1").innerHTML="C";
+           document.getElementById("s2").innerHTML="C++";
+           document.getElementById("s3").innerHTML="HTML";
+           document.getElementById("s4").innerHTML="CSS";
+           document.getElementById("s5").innerHTML="JAVA";
+           document.getElementById("s6").style.display="none";
+           document.getElementById("s7").style.display="none";
+           document.getElementById("s8").style.display="none";
+           document.getElementById("deg").innerHTML="B.Tech CSE";	
+		}
+</script>	
+
+</body>
+</html>

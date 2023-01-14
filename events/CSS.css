@@ -1,0 +1,167 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('th1.jpg');
+  background-position:center; 
+  background-size:cover;
+  
+  animation: Yo 30s linear infinite 0s;
+  
+}
+
+@keyframes Yo{
+  0%{
+    background-image: url('th1.jpg');
+  }
+  50%{
+    background-image: url('th2.jpg');
+  }
+  100%{
+         background-image: url('th3.jpg'); 
+    }
+  }    
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-text {
+
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+}
+
+.container1{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto; 
+  float: left;
+}
+
+
+.container1 .content {
+  position: relative;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 420px;
+  height: 150px;
+  padding: 20px;
+}
+td{
+	padding:5px;
+}
+.rightmenu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.menu{
+
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+  width: 20%;
+  line-height: 100px;
+  float: left;
+/*  background-color: yellow;*/
+}
+
+.leftmenu h4{
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+  width:70%;
+  height: 100px;
+  float: right;
+  
+}
+
+.rightmenu ul{
+  margin-left: 200px;
+}
+
+.rightmenu ul li {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color:white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+#fisrtlist{
+  text-decoration: none;
+}
+
+.rightmenu ul li:hover a{
+  color: orange;
+}
+#buttonone{
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 25px;
+  border: 3px solid white;
+}
+
+#buttontwo{
+
+  background-color: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  border: 3px solid white;
+  width: 150px;
+}
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
